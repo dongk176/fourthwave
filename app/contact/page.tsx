@@ -52,12 +52,18 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-6">
+              <a
+                href="https://www.instagram.com/fourthwave_productions/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-start gap-6 transition-colors hover:text-primary"
+              >
                 <img alt="Instagram" className="h-8 w-8 object-contain" src="/SNS/instagram.png" />
                 <div>
                   <p className="text-xs text-slate-300/80 uppercase font-bold mb-1">Instagram</p>
+                  <p className="text-lg font-bold tracking-tighter">@fourthwave_productions</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 

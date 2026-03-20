@@ -215,12 +215,13 @@ __HOME_FAQ_SECTION__
 <button type="button" data-copy-text="+65 8818 3909" class="text-left text-2xl font-bold tracking-tighter transition-colors hover:text-primary">+65 8818 3909</button>
 </div>
 </div>
-<div class="flex items-start gap-6">
+<a href="https://www.instagram.com/fourthwave_productions/" target="_blank" rel="noreferrer" class="flex items-start gap-6 transition-colors hover:text-primary">
 <img alt="Instagram" class="h-8 w-8 object-contain" src="/SNS/instagram.png"/>
 <div>
 <p class="text-xs text-slate-300/80 uppercase font-bold mb-1">Instagram</p>
+<p class="text-lg font-bold tracking-tighter">@fourthwave_productions</p>
 </div>
-</div>
+</a>
 </div>
 </div>
 <div class="md:bg-background-elevated md:p-12 md:brutalist-border">
