@@ -3,7 +3,7 @@ import HomeFaqPreview from "./home-faq-preview";
 import HomeScrollReveal from "./home-scroll-reveal";
 
 const homeMarkup = `
-<section class="relative min-h-screen min-h-[var(--initial-viewport-height,100vh)] w-full flex items-center justify-center overflow-hidden pt-32 pb-16 md:pt-32 md:pb-20" id="home">
+<section class="relative flex h-[var(--initial-viewport-height,100vh)] min-h-[var(--initial-viewport-height,100vh)] w-full items-center justify-center overflow-hidden pt-32 pb-16 md:min-h-screen md:h-screen md:pt-32 md:pb-20" id="home">
 <div class="absolute inset-0 z-0">
 <div class="absolute inset-0 cinematic-overlay z-10"></div>
 <img alt="Professional recording studio in Seoul" class="home-hero-image home-hero-image-enter w-full h-full object-cover opacity-58 brightness-[0.68]" data-alt="Cinematic dark music studio interior with professional equipment" src="/home/main.png"/>

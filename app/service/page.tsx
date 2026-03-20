@@ -1,7 +1,7 @@
 const serviceMarkup = `
 <div class="relative flex min-h-screen flex-col overflow-x-hidden">
 <main class="flex-1">
-<section class="relative min-h-screen min-h-[var(--initial-viewport-height,100vh)] w-full flex items-center justify-center overflow-hidden pt-32 pb-16 md:pt-32 md:pb-20 bg-[linear-gradient(140deg,rgba(159,180,204,0.12)_0%,rgba(36,42,49,0.84)_42%,rgba(27,31,37,0.92)_100%)]">
+<section class="relative flex min-h-[var(--initial-viewport-height,100vh)] w-full items-center justify-center overflow-hidden pt-32 pb-16 md:min-h-screen md:pt-32 md:pb-20 bg-[linear-gradient(140deg,rgba(159,180,204,0.12)_0%,rgba(36,42,49,0.84)_42%,rgba(27,31,37,0.92)_100%)]">
 <div class="absolute inset-0 z-0">
 <img alt="Professional recording studio in Seoul" class="service-hero-image-enter absolute inset-0 h-full w-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6PrtSKorn-on3MnOBmzsP4y5Td9261TM-MZ_YCi6EAwMjHxq55BOiy_zTBqVyogbL4j9TzcK2sTR3x19S1EMpyg9V1utHcEaTQRKTqNPhKH9dTomkSxPcjvIRrYlz0WS0xinLPdK9xiCQeEoJkBIOYWZoMHqUsrGrQys2aFAghXTdTwktmdTc2flXNnPuF4KyQrT2N2rbHsrkDAtPCMhsI8wr8TF879qk4HzH8fhlLWAHdcKnYAbPi8N2YPN_MvDTI6x2a7P73A"/>
 <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(23,25,27,0.48)_0%,rgba(23,25,27,0.88)_100%)]"></div>

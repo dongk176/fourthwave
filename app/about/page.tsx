@@ -1,5 +1,5 @@
 const aboutMarkup = `
-<section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden pt-32 pb-16 md:pt-32 md:pb-20">
+<section class="relative flex h-[var(--initial-viewport-height,100vh)] min-h-[var(--initial-viewport-height,100vh)] w-full items-center justify-center overflow-hidden pt-32 pb-16 md:min-h-screen md:h-screen md:pt-32 md:pb-20">
 <div class="absolute inset-0 z-0">
 <div class="absolute inset-0 bg-[linear-gradient(160deg,#1d2329_0%,#242b32_42%,#1c2228_100%)]"></div>
 <img alt="About hero background" class="about-hero-image-enter absolute inset-0 h-full w-full object-cover opacity-35" src="/about/about%20second.jpg"/>

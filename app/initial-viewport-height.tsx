@@ -1,13 +1,24 @@
 "use client";
 
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 export default function InitialViewportHeight() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (typeof window === "undefined") return;
 
-    const initialHeight = `${window.innerHeight}px`;
-    document.documentElement.style.setProperty("--initial-viewport-height", initialHeight);
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    if (!isMobile) return;
+
+    const locked = document.documentElement.style.getPropertyValue("--initial-viewport-height");
+    if (locked) return;
+
+    const initialHeight = Math.round(window.visualViewport?.height || window.innerHeight || 0);
+    if (initialHeight > 0) {
+      document.documentElement.style.setProperty(
+        "--initial-viewport-height",
+        `${initialHeight}px`,
+      );
+    }
   }, []);
 
   return null;
